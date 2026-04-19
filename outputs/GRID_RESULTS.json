@@ -1,0 +1,41 @@
+[
+  {
+    "config": "A",
+    "r": 8,
+    "alpha": 16,
+    "lr": 0.0002,
+    "use_rslora": false,
+    "trainable": 12156928,
+    "trainable_pct": 0.67,
+    "final_train_loss": 0.8144,
+    "final_val_loss": 0.8829,
+    "val_rouge1": 0.527,
+    "val_rougeL": 0.4506
+  },
+  {
+    "config": "B",
+    "r": 16,
+    "alpha": 32,
+    "lr": 0.0002,
+    "use_rslora": false,
+    "trainable": 24313856,
+    "trainable_pct": 1.33,
+    "final_train_loss": 0.7643,
+    "final_val_loss": 0.8824,
+    "val_rouge1": 0.538,
+    "val_rougeL": 0.4608
+  },
+  {
+    "config": "C",
+    "r": 32,
+    "alpha": 64,
+    "lr": 0.0001,
+    "use_rslora": true,
+    "trainable": 48627712,
+    "trainable_pct": 2.626,
+    "final_train_loss": 0.5208,
+    "final_val_loss": 0.9254,
+    "val_rouge1": 0.5381,
+    "val_rougeL": 0.4571
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "qwen_0_5b": {
+    "rouge1_f": 0.4547922777164834,
+    "rouge2_f": 0.18906794089583076,
+    "rougeL_f": 0.3723674643631529,
+    "n": 200,
+    "train_secs": 4456.430385351181,
+    "trainable": 8798208,
+    "trainable_pct": 1.7497346861940344,
+    "tag": "qwen_0_5b",
+    "best_step": "outputs/adapters/lora16/qwen_0_5b/ckpt/checkpoint-1558"
+  },
+  "llama_3_2_3b": {
+    "rouge1_f": 0.5466090915137936,
+    "rouge2_f": 0.2891504559313994,
+    "rougeL_f": 0.46612624799253366,
+    "n": 200,
+    "train_secs": 8340.302171945572,
+    "trainable": 24313856,
+    "trainable_pct": 0.7511083625021551,
+    "tag": "llama_3_2_3b",
+    "best_step": "outputs/adapters/lora16/llama_3_2_3b/ckpt/checkpoint-600"
+  }
+}

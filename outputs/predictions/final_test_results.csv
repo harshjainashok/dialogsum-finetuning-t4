@@ -1,0 +1,7 @@
+Method,Model,Trainable Params,Peak VRAM (GB),ROUGE-1 F1,ROUGE-2 F1,ROUGE-L F1,≥0.40?
+qlora,llama_3_2_3b,"24,313,856",9.82,0.4849,0.2213,0.4008,YES
+qlora,qwen_0_5b,"8,798,208",5.65,0.4225,0.152,0.334,YES
+lora16,llama_3_2_3b,"24,313,856",9.93,0.4855,0.2198,0.4015,YES
+lora16,qwen_0_5b,"8,798,208",5.75,0.4064,0.1456,0.3218,YES
+zeroshot,llama_3_2_3b,0,9.62,0.2729,0.0834,0.2054,no
+zeroshot,qwen_0_5b,0,5.51,0.2434,0.0647,0.1862,no

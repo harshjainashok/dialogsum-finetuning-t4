@@ -1,0 +1,59 @@
+#,id,dialogue,reference,generated,commentary
+1,test_0_1,"#Person1#: Ms. Dawson, I need you to take a dictation for me.
+#Person2#: Yes, sir...
+#Person1#: This should go out as an intra-office memorandum to all employees by this afternoon. Are you ready?
+#Person2#: Yes, sir. Go ahead.
+#Person1#: Attention all staff... Effective immediately, all office communications are restricted to email correspondence and official memos. The use of Instant Message prog …",Ms. Dawson helps #Person1# to write a memo to inform every employee that they have to change the communication method and should not use Instant Messaging anymore.,#Person1# asks Ms. Dawson to take a dictation for him. #Person1# tells Ms. Dawson that all office communications are restricted to email correspondence and official memos. Ms. Dawson asks #Person1# to clarify the policy.,partially captures the topic; length is appropriate; no obvious hallucinations.
+2,test_50_1,"#Person1#: Taxi!
+#Person2#: Where will you go, sir?
+#Person1#: Friendship Hotel.
+#Person2#: OK, it's not far from here.
+#Person1#: I have something important to do, can you fast the speed?
+#Person2#: Sure, I'll try my best. Here we are.
+#Person1#: It's fast! How much should I pay you?
+#Person2#: The reading on the meter is 15 yuan.
+#Person1#: Here's 20 yuan, keep the change.
+#Person2#: Thank you v …",#Person1# takes a taxi to the Friendship Hotel for something important.,#Person1# takes a taxi to the Friendship Hotel.,captures main topic; length is appropriate; no obvious hallucinations.
+3,test_100_1,"#Person1#: I cannot imagine if Trump were to be our President again.
+#Person2#: I am proud to say that he is our President, and I will be really happy if he could be re-elected.
+#Person1#: You voted for him, right?
+#Person2#: Did you vote for him, because I know that I did.
+#Person1#: I am not sure about this.
+#Person2#: I have nothing but faith in Trump.
+#Person1#: What?
+#Person2#: I am pretty su …",#Person1# is crazy for Trump and voted for him. #Person2# doesn't agree with #Person1# on Trump and will vote for Biden.,#Person2# is proud of Trump as the President and trusts him to take good care of the country. #Person1# doesn't think so and will vote for Biden.,partially captures the topic; length is appropriate; no obvious hallucinations.
+4,test_150_1,"#Person1#: What's up?
+#Person2#: I guess there is some kind of virus seeking into my computer, I can't send out this e-mail. Do you have the number of the text port?
+#Person1#: Do you mind I have a look at your computer?
+#Person2#: Of course not, I appreciate that.
+#Person1#: Well, it has nothing to do with virus. The problem is your attachment is a bit larger. It has exceeded the e-mail capacity. …",#Person1# finds that #Person2# e-mail exceeds capacity and suggests #Person2# compress the email.,#Person2# can't send out the e-mail because the attachment is too large. #Person1# suggests #Person2# send a compressed one.,partially captures the topic; length is appropriate; no obvious hallucinations.
+5,test_200_1,"#Person1#: Oh, I'm starving. It's my first time to China. And I'd like to try some real Chinese cuisine. What would you recommend?
+#Person2#: Well, depends. You see, there are eight famous Chinese food cuisines, for instance, Sichuan cuisine and Hunan cuisine.
+#Person1#: There're all spicy or hot of heard.
+#Person2#: That's right. If you have hot dishes, you can try some.
+#Person1#: I cannot have  …",It's #Person1#'s first time to China and #Person1# wants some Chinese cuisine. #Person2# recommends some but it's too far and #Person1# is starving. Then #Person2# suggests a nearby Quanjude restaurant and its Beijing roast duck. #Person1# will go there.,#Person1# wants to try some Chinese food. #Person2# recommends Sichuan and Hunan cuisines but #Person1# cannot have it. #Person1# wants to try the Cantonese one but it's far away. #Person2# recommends Quanjude restaurant which is famous for the Beijing roast duck.,captures main topic; length is appropriate; no obvious hallucinations.
+6,test_250_1,"#Person1#: Good afternoon. I come here specially to pick up my tickets. I booked it last month. This is my reservation note.
+#Person2#: I am terribly sorry. You didn't come to reconfirm recently. You should have come to pick up your ticket three days ago since it's an international flight, any reservation without reconfirmation within 72 hours will be cancelled.
+#Person1#: But I have been so busy  …","As not reconfirming recently, #Person1# cannot take the reserved air ticket.",#Person1# wants to pick up the ticket but #Person2# says it's cancelled. #Person1# wants the next one.,misses the main topic; length is appropriate; possible hallucinated tokens — verify manually.
+7,test_300_1,"#Person1#: We need to call an emergency meeting as soon as possible about this.
+#Person2#: OK. Let me send a memo around.
+#Person1#: Schedule it for this afternoon, when Ken gets back.
+#Person2#: I don ' t think he ' s back today.
+#Person1#: Oh, that ' s right. Go ahead anyways. I ' ll fill him in. We can ' t lose this order under any circumstances!
+#Person2#: I know, it ' s a big one.",#Person1# asks #Person2# to scedule an emergency meeting for an important order when Ken gets back. #Person2# doesn't think he would be back today.,#Person1# and #Person2# will call an emergency meeting to discuss the order.,partially captures the topic; length is appropriate; no obvious hallucinations.
+8,test_350_1,"#Person1#: Excuse me, Miss.
+#Person2#: What can I do for you?
+#Person1#: I've just heard an announcement that my flight has been delayed.
+#Person2#: What's your flight number?
+#Person1#: Flight CA216 to Chengdu.
+#Person2#: Yes, it's true. It has been delayed.
+#Person1#: Could you please tell me why?
+#Person2#: Yes, of course. The delay is due to heavy rain.
+#Person1#: How long will the delay be? D …",#Person1#'s flight has been delayed because of heavy rain and #Person2# suggests #Person1# listen to the announcement for further information.,#Person1#'s flight has been delayed due to heavy rain. #Person2# tells #Person1# the delay is due to the change in weather and asks #Person1# to listen to the latest announcement.,captures main topic; length is appropriate; no obvious hallucinations.
+9,test_400_1,"#Person1#: Hello. Tenants Advocacy Resource Center.
+#Person2#: Hello. I'm having a problem with my house owner. The House owner is a nice enough guy, but he and I just can't seem to agree on repair costs.
+#Person1#: Has he been unwilling to make repairs?
+#Person2#: It's not that he's unwilling. He just takes too long. When I first moved in, the heater was broken and it took him 3 months to fix it  …",#Person2# tells Tenants Advocacy Resource Center about the problem with #Person2#'s house owner. #Person2# tells #Person1# it always takes #Person2#'s house owner a long time to repair and they can't agree on the repair costs.,"#Person2# complains to #Person1# that the house owner doesn't pay for the repair costs. #Person2# tells #Person1# the house owner didn't fix the heater and the broken window, and #Person2# had to repair the washing machine.",partially captures the topic; length is appropriate; no obvious hallucinations.
+10,test_449_3,"#Person1#: How did your company's fundraiser go?
+#Person2#: The fundraiser events went really well. We were able to partner with a few of our competitors, all in fun of course, to sponsor a marathon for the American Cancer Society. All of the people who participated it had a great time, and we were able to raise a lot of money to contribute to cancer research.
+#Person1#: So how does it work? How w …","#Person1# asks about the fundraiser of #Person2#'s company. #Person2#'s company with other companies sponsored a marathon for the American Cancer Society, which was good for the advertising campaign.",#Person2# tells #Person1# the fundraiser events went well and explains how they made money with the marathon. #Person2# thinks it's a great deal for both the American Cancer Society and #Person2#'s company.,partially captures the topic; length is appropriate; no obvious hallucinations.
